@@ -1,14 +1,7 @@
-name: preterm-birth-app
-channels:
-  - defaults
-  - conda-forge
-dependencies:
-  - python=3.9
-  - streamlit=1.21.0
-  - numpy
-  - pandas
-  - scikit-learn
-  - joblib
-  - matplotlib
-  - tensorflow
+streamlit
+pandas
+spacy
+python-docx
+scikit-learn
+pyedflib
 
