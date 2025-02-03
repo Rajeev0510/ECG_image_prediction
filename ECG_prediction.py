@@ -7,6 +7,10 @@ import joblib
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
+import mne
+edf_data = mne.io.read_raw_edf("your_file.edf", preload=True)
+
+
 # 📌 Load the trained model, scaler, and selected features
 model = joblib.load("ecg_model_reduced.pkl")
 scaler = joblib.load("scaler_reduced.pkl")
