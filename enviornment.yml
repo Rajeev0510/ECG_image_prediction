@@ -1,9 +1,8 @@
 streamlit
 pandas
 numpy
-pyedflib
+mne
 neurokit2
 joblib
 matplotlib
-
 
