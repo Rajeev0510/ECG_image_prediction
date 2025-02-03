@@ -1,7 +1,8 @@
 streamlit
 pandas
-spacy
-python-docx
-scikit-learn
+numpy
 pyedflib
+neurokit2
+joblib
+matplotlib
 
