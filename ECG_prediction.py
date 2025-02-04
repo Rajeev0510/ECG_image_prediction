@@ -9,6 +9,16 @@ from sklearn.preprocessing import StandardScaler
 import mne
 edf_data = mne.io.read_raw_edf("your_file.edf", preload=True)
 
+import subprocess
+import sys
+
+# Ensure neurokit2 is installed
+try:
+    import neurokit2 as nk
+except ModuleNotFoundError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "neurokit2"])
+    import neurokit2 as nk
+
 
 # 📌 Load the trained model, scaler, and selected features
 model = joblib.load("ecg_model_reduced.pkl")
