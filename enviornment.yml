@@ -2,8 +2,9 @@ streamlit
 pandas
 numpy
 mne
-neurokit2
+neurokit2==0.2.3
 joblib
 matplotlib
 scikit-learn
+
 
