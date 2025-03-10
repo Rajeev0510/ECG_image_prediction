@@ -6,3 +6,4 @@ seaborn
 mysql-connector-python
 joblib
 pyedflib
+neurokit2
